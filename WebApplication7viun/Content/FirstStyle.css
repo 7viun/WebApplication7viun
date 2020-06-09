@@ -1,0 +1,111 @@
+﻿body {
+    text-align: center;
+    background-color:aqua;
+    /*background: url("https://st.quantrimang.com/photos/image/2018/06/14/man-hinh-vo-1.jpg");*/ 
+    color: black;
+    font-family: Helvetica;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p {
+    font-size: 35px;
+    text-shadow: 10px 2px #b6ff00;
+}
+input[type="email"] {
+    border: 0;
+    padding: 12px;
+    font-size: 18px;
+    background: limegreen;
+}
+
+    input[type="submit"] {
+        background: limegreen;
+        color: black;
+    }
+
+h1::before {
+    content: "\f004";
+    font-family: "FontAwesome";
+    font-weight: normal;
+    margin: 0 10px 0 0;
+}
+#preview .buttons .ok {
+    border: 1px solid #F5F5F5;
+    border-radius: 4px;
+    width: 28px;
+    height: 28px;
+    font-size: 20px;
+}
+.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+    .scrollmenu a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+    }
+
+        .scrollmenu a:hover {
+            background-color: #777;
+        }
+.ok:hover {
+    content: "\f2b9";
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+.fa-twitter {
+    color: blue;
+}
+
+    .fa-twitter:hover {
+        color: aquamarine;
+    }
+.fa-facebook{
+    color:blue;
+}
+.fa-facebook:hover{
+    color:red;
+}
+.facebookBtn:before { /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+    font-size: large;
+}
+
+.facebookBtn:hover {
+    color: #4cff00;
+}
+
+
+.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+    .scrollmenu a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+        .scrollmenu a:hover {
+            background-color: #777;
+        }
