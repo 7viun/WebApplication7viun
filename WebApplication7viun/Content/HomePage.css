@@ -89,9 +89,12 @@ body{
         font-family: "MoonBold","Trebuchet MS","Lucida Sans Unicode",sans-serif,Arial;
         color:white;
     }
-.fa-facebook-f{
-    color:white;
-}
+    .footer a {
+        color: white;
+        float: left;
+        margin:0px 20px 0px 20px;
+    }
+
 /*Brief of Posts*/
 .post img {
     float: left;
