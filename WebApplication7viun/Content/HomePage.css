@@ -1,0 +1,85 @@
+﻿* {
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+}
+/*Scroll menu Parts*/
+.scrollmenu {
+    background-color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    position:fixed;
+    top: 0;
+    width:100%;
+}
+    .scrollmenu a.normal {
+        display: inline-block;
+        color: white;
+        padding: 14px;
+        text-decoration: none;
+        font-family: "MoonBold","Times New Roman","Trebuchet MS","Lucida Sans Unicode",sans-serif,Arial;
+    }
+
+        .scrollmenu a.normal:hover {
+            background-color: #777;
+        }
+
+    .scrollmenu input[type=text] {
+        padding: 15px 15px 15px 5px;
+        border:0;
+        width:300px;
+        height:inherit;
+        margin-left:50px;
+        font-family: "MoonBold","Times New Roman","Trebuchet MS","Lucida Sans Unicode",sans-serif,Arial;
+    }
+    .scrollmenu a.override {
+        display: inline-block;
+        color: white;
+        padding: 14px;
+        text-decoration: none;
+        margin-right:50px;
+        font-family: "MoonBold","Times New Roman","Trebuchet MS","Lucida Sans Unicode",sans-serif,Arial;
+    }
+.fa-search{
+    color:white;
+}
+    .fa-search:hover {
+        color: #777;
+    }
+/*Devide Layout to Two Columns*/
+.row {
+    display:flex;
+}
+.column.main {
+    flex: 85%;
+    padding:10px 10px 10px 100px;
+}
+.column.side {
+    flex: 15%;
+    padding:10px 0px 10px 10px;
+}
+.column.side img{
+    width:inherit;
+    max-width:100%;
+    height:auto;
+}
+.cover-image{
+    margin-top:50px;
+}
+/*Footer*/
+.footer {
+    position: fixed;
+    background-color: #333;
+    bottom: 0px;
+    border-top: 1px solid #E8E8E8;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+    .footer p {
+        font-family: "MoonBold","Times New Roman","Trebuchet MS","Lucida Sans Unicode",sans-serif,Arial;
+        color:white;
+    }
