@@ -110,6 +110,9 @@
     <Content Include="fonts\moon2.0-bold-webfont.svg" />
     <Content Include="fonts\moon2.0-light-webfont.svg" />
     <Content Include="fonts\moon2.0-regular-webfont.svg" />
+    <Content Include="fonts\roboto-black-webfont.svg" />
+    <Content Include="fonts\Roboto-Light.svg" />
+    <Content Include="fonts\Roboto-Medium.svg" />
     <Content Include="NewFolder1\7viun.About.html" />
     <Content Include="Content\FirstStyle.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -132,6 +135,16 @@
     <Content Include="fonts\moon2.0-light-webfont.ttf" />
     <Content Include="fonts\moon2.0-regular-webfont.eot" />
     <Content Include="fonts\moon2.0-regular-webfont.ttf" />
+    <Content Include="fonts\roboto-black-webfont.eot" />
+    <Content Include="fonts\roboto-black-webfont.ttf" />
+    <Content Include="fonts\roboto-black-webfont.woff" />
+    <Content Include="fonts\roboto-black-webfont.woff2" />
+    <Content Include="fonts\Roboto-Light.eot" />
+    <Content Include="fonts\Roboto-Light.ttf" />
+    <Content Include="fonts\Roboto-Light.woff" />
+    <Content Include="fonts\Roboto-Medium.eot" />
+    <Content Include="fonts\Roboto-Medium.ttf" />
+    <Content Include="fonts\Roboto-Medium.woff" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="NewFolder1\MainPage.html" />
     <Content Include="Photos\Cover.png" />

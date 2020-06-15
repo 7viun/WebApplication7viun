@@ -6,3 +6,18 @@
     src: url(../fonts/moon2.0-bold-webfont.woff) format('woff');
     src: url(../fonts/moon2.0-bold-webfont.woff2) format('woff');
 }
+@font-face {
+    font-family: "RobotoBold";
+    src: url(../fonts/roboto-black-webfont.eot) format("embedded-opentype");
+    src: url(../fonts/roboto-black-webfont.svg) format('svg');
+    src: url(../fonts/roboto-black-webfont.ttf) format('truetype');
+    src: url(../fonts/roboto-black-webfont.woff) format('woff');
+    src: url(../fonts/roboto-black-webfont.woff2) format('woff');
+}
+@font-face {
+    font-family: "RobotoMedium";
+    src: url(../fonts/Roboto-Medium.eot) format("embedded-opentype");
+    src: url(../fonts/Roboto-Medium.svg) format('svg');
+    src: url(../fonts/Roboto-Medium.ttf) format('truetype');
+    src: url(../fonts/Roboto-Medium.woff) format('woff');
+}
